@@ -416,23 +416,6 @@
     <string name="contributions_info_msg"><![CDATA[<b>Samlede bidragydere:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Samlede bidrag:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Seneste opdatering:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS-statistikker</string>
-    <string name="anonymous_statistics_summary">Hjælp med at gøre LineageOS bedre, ved at deltage i anonym statistik-rapportering</string>
-    <string name="anonymous_statistics_warning_title">Om</string>
-    <string name="anonymous_statistics_warning">Deltagelse i LineageOS Statistikker vil tillade ikke-personlige data, at blive indsendt til
-        udviklerne af LineageOS, for at spore unikke installeringer, på tværs af enheder. Den indsendte information inkluderer en unik 
-        som ikke kompromitterer dit privatliv, eller personlige data. Dataene indsendes under hver opstart.\n\nTryk på Forhåndsvis Data, for et eksempel på de data, der indsendes.</string>
-    <string name="enable_reporting_title">Aktivér rapportering</string>
-    <string name="preview_data_title">Få vist data</string>
-    <string name="view_stats_title">Vis statistikker</string>
-    <string name="anonymous_learn_more">Lær mere</string>
-    <string name="preview_id_title">Unikt ID</string>
-    <string name="preview_device_title">Enhed</string>
-    <string name="preview_version_title">Version</string>
-    <string name="preview_country_title">Land</string>
-    <string name="preview_carrier_title">Operatør</string>
-    <string name="stats_collection_title">Indsamling af statistik</string>
-    <string name="stats_collection_summary">Tillad installationsdata og enhedsstatistik at blive indsamlet</string>
     <string name="accelerometer_title">Automatisk rotation af skærmen</string>
     <string name="display_rotation_title">Rotationsindstillinger</string>
     <string name="display_rotation_enabled">Auto-rotation er aktiveret</string>
@@ -493,31 +476,4 @@
     <string name="touchscreen_gesture_action_next_track">Spring til næste musik-spor</string>
     <string name="touchscreen_gesture_action_volume_down">Sænk medielydstyrke</string>
     <string name="touchscreen_gesture_action_volume_up">Hæv medielydstyrke</string>
-    <string name="trust_category_features">Status</string>
-    <string name="trust_feature_selinux">SELinux</string>
-    <string name="trust_feature_selinux_value_disabled">Deaktiveret</string>
-    <string name="trust_feature_security_patches">Android-sikkerhedsrettelser</string>
-    <string name="trust_feature_security_patches_value_base">Platform: %1$s\nProducent: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">Opdateret</string>
-    <string name="trust_feature_security_patches_value_medium">Et par måneder forældet</string>
-    <string name="trust_feature_security_patches_value_old">Forældet</string>
-    <string name="trust_feature_security_patches_explain">Sikkerhedsrettelser frigives månedligt af Google i samarbejde med SoC-leverandører, for at adressere fejl, som kunne blive udnyttet af ondsindede apps, til at omgå sikkerhedsrestriktioner, og forårsage permanent skade på din enhed. Rettelser gjort tilgængelige af Google anvendes hver måned, på alle understøttede enheder, men rettelser til proprietær kode kun kan anvendes af din enheds producent. Sørg for at dit LineageOS-build altid er ajour, for at holde din enhed sikker, og (hvis gældende) sikre at dit producent-billede er opdateret til den seneste, som anbefales af LineageOS.</string>
-    <string name="trust_feature_encryption">Kryptering</string>
-    <string name="trust_feature_encryption_value_enabled">Aktiveret</string>
-    <string name="trust_feature_encryption_value_nolock">Har brug for en sikker låseskærm</string>
-    <string name="trust_feature_encryption_value_disabled">Deaktiveret</string>
-    <string name="trust_feature_encryption_explain">Kryptering af din enhed forhindrer adgang til dine data, når din telefon ikke er startet op i Android. Dette er især vigtigt, hvis din telefon bliver stjålet, da den forhindrer folk i at læse dine beskeder, kontaktpersoner og andre private oplysninger uden din adgangskode.\nFor at gøre krypteringen mere effektiv, skal du angive en sikker adgangskode til låseskærmen.</string>
-    <string name="trust_category_tools">Privatliv</string>
-    <string name="trust_notification_alerts_title">Sikkerhedsadvarsler</string>
-    <string name="trust_warnings_selinux">SELinux status</string>
-    <string name="trust_onboarding_title">Sig hej til Tillid</string>
-    <string name="trust_onboarding_learn_more">Lær mere</string>
-    <string name="trust_onboarding_done">Forstået</string>
-    <string name="trust_restrict_usb_summary">Styr understøttelse af USB-forbindelser som høretelefoner, lagerenheder, input (mus, tastaturer, joysticks) og ADB</string>
-    <string name="trust_restrict_usb_always">Afvis USB-forbindelser</string>
-    <string name="trust_restrict_usb_keyguard">Tillad USB-forbindelser når oplåst</string>
-    <string name="trust_restrict_usb_disabled">Tillad altid USB-forbindelser</string>
-    <string name="trust_summary">Hold din enhed sikker og beskyt dit privatliv</string>
-    <string name="sms_security_check_limit_title">SMS-grænse</string>
-    <string name="sms_security_check_limit_always_confirm">Altid bekræft</string>
 </resources>

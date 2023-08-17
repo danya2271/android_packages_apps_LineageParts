@@ -401,24 +401,6 @@
     <string name="contributions_info_msg"><![CDATA[<b>Panustajaid kokku:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Commite kokku:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Viimane uuendus:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS\'i statistika</string>
-    <string name="anonymous_statistics_summary">Aita LineageOS\'i paremaks teha, lülitades sisse anonüümse statistika raporteerimise</string>
-    <string name="anonymous_statistics_warning_title">Teave</string>
-    <string name="anonymous_statistics_warning">Lülitades sisse LineageOS\'i statistika, lubad sa isikustamata teabe saatmist
-        LineageOS\'i arendajatele, et nad saaksid jälgida seadmepõhiselt unikaalseid paigaldusi. Saadetud teabe hulgas on unikaalne identifikaator,
-        mis ei ohusta sinu privaatsust ega isiklikke andmeid. Teave saadetakse igal käivitusel.\n\nEt näha saadetavate andmete näidet, koputa valikul
-andmete eelvaade.</string>
-    <string name="enable_reporting_title">Luba raporteerimine</string>
-    <string name="preview_data_title">Andmete eelvaade</string>
-    <string name="view_stats_title">Vaata statistikat</string>
-    <string name="anonymous_learn_more">Lisateave</string>
-    <string name="preview_id_title">Kordumatu ID</string>
-    <string name="preview_device_title">Seade</string>
-    <string name="preview_version_title">Versioon</string>
-    <string name="preview_country_title">Riik</string>
-    <string name="preview_carrier_title">Operaator</string>
-    <string name="stats_collection_title">Andmete kogumine</string>
-    <string name="stats_collection_summary">Luba installimõõdikute ja seadme statistika kogumist</string>
     <string name="accelerometer_title">Pööra ekraani automaatselt</string>
     <string name="display_rotation_title">Pööramise seaded</string>
     <string name="display_rotation_enabled">Automaatne pööramine lubatud</string>
@@ -479,34 +461,4 @@ andmete eelvaade.</string>
     <string name="touchscreen_gesture_action_volume_down">Alanda meedia helitugevust</string>
     <string name="touchscreen_gesture_action_volume_up">Suurenda meedia helitugevust</string>
     <string name="touchscreen_gesture_action_ambient_display">Kuva ambientne ekraan</string>
-    <string name="trust_category_features">Olek</string>
-    <string name="trust_feature_selinux">SELinux</string>
-    <string name="trust_feature_selinux_value_enforcing">Jõustav</string>
-    <string name="trust_feature_selinux_value_disabled">Keelatud</string>
-    <string name="trust_feature_selinux_explain">SELinux määrab, millised protsessid saavad ligipääsu millistele failidele/failiteedele sinu seadmes.\nSee väldib rakendustel ja teenustel ligipääsu failidele, millele nad ei tohiks ligi pääseda, seega potensiaalselt ohtlikud protsessid piiratakse ning sinu turvalisus säilib.</string>
-    <string name="trust_feature_security_patches">Androidi turvapaigad</string>
-    <string name="trust_feature_security_patches_value_base">Platvorm: %1$s\nTarnija: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">Ajakohane</string>
-    <string name="trust_feature_security_patches_value_medium">Paar kuud vana</string>
-    <string name="trust_feature_security_patches_value_old">Vananenud</string>
-    <string name="trust_feature_security_patches_explain">Google väljastab iga kuu turvapaikasid koostöös SoC tarnijatega, parandamaks vigu, mida võivad pahatahtlikud rakendused ära kasutada, et pääseda mööda turvapiirangutest ning põhjustada püsivat kahju sinu seadmele. Paigad, mille Google väljastab rakendatakse iga kuu kõikidele toetatud seadmetele, aga omandiõigustega koodile saab paiku määrata ainult sinu seadme tootja. Et hoida oma seade turvalisena, veendu, et sinu LineageOS järk on alati kaasaegne ning (võimalusel) veendu, et sinu tarnija tõmmis on uuendatud LineageOS\'i poolt viimasena soovitatud versioonile.</string>
-    <string name="trust_feature_encryption">Krüpteerimine</string>
-    <string name="trust_feature_encryption_value_enabled">Lubatud</string>
-    <string name="trust_feature_encryption_value_nolock">Vajab turvalist lukustuskuva</string>
-    <string name="trust_feature_encryption_value_disabled">Keelatud</string>
-    <string name="trust_feature_encryption_explain">Seadme krüpteerimine piirab sinu andmetele ligipääsu, kuni su telefon ei tööta Androidi operatsioonisüsteemis. See on eriti oluline, kui su telefon varastatakse, kuna see väldib inimestel sinu sõnumite, kontaktide ja muude privaatsete andmete lugemist ilma sinu paroolita.\nEt teha krüpteerimine veel efektiivsemaks, pead määrama ka turvalise lukustuskuva parooli.</string>
-    <string name="trust_category_tools">Privaatsus</string>
-    <string name="trust_notification_alerts_title">Turvateated</string>
-    <string name="trust_warnings_alerts_intro">Sa saad valida, millistest turvaohtudest soovid olla teavitatud. Sinu turvalisuse jaoks on soovitatud kõik teavitused lubada</string>
-    <string name="trust_warnings_selinux">SELinuxi olek</string>
-    <string name="trust_warnings_keys">Järgu allkiri</string>
-    <string name="trust_onboarding_title">Ütle tere Trustile</string>
-    <string name="trust_onboarding_description">Trust aitab sul hoida oma seadet turvalisena ning kaitsta oma privaatsust.\nTrust-ikooni kuvatakse vaid siis, kui lehe sisu on kinnitatud.</string>
-    <string name="trust_onboarding_learn_more">Lisateave</string>
-    <string name="trust_onboarding_done">Sain aru</string>
-    <string name="trust_restrict_usb_title">Piira USB-d</string>
-    <string name="sms_security_check_limit_title">SMS-sõnumite limiit</string>
-    <string name="sms_security_check_limit_summary">Rakendused saavad 1 minuti jooksul saata %s sõnumit, enne kui vajavad kinnitust</string>
-    <string name="sms_security_check_limit_summary_none">Rakendused ei tohi saata ühtegi sõnumit ilma kinnituseta</string>
-    <string name="sms_security_check_limit_always_confirm">Küsi alati kinnitust</string>
 </resources>

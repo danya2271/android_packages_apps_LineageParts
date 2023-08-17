@@ -430,23 +430,6 @@
     <string name="contributions_info_msg"><![CDATA[<b>მონაწილე ჯამში:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>შეტანილი წვლილი ჯამში:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>ბოლო განახლება:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS-ის სტატისტიკა</string>
-    <string name="anonymous_statistics_summary">დაგვეხმარეთ, რომ გავაუმჯობესოთ LineageOS, ვინაობის გაუმხელი მონაცემების აღრიცხვაში ჩართვით</string>
-    <string name="anonymous_statistics_warning_title">შესახებ</string>
-    <string name="anonymous_statistics_warning">LineageOS-სტატისტიკაში ჩართვით, პირადი ინფორმაციისგან გამიჯნული მონაცემები გაეგზავნება
-        LineageOS-ის შემმუშავებლებს, თითოეული დაყენების აღსარიცხად მოწყობილობებზე. ეს მონაცემები შეიცავს სხვებისგან გამოსარჩევ ნიშანს,
-        რომლითაც არ მჟღავნდება თქვენი ვინაობა ან პირადი ინფორმაცია. მონაცემები გაიგზავნება ყოველი ჩართვისას.\n\nმაგალითის სანახავად, თუ რა სახისაა ეს ინფორმაცია, შეეხეთ „მონაცემთა შეთვალიერებას“.</string>
-    <string name="enable_reporting_title">ანგარიშგების ჩართვა</string>
-    <string name="preview_data_title">მონაცემების შეთვალიერება</string>
-    <string name="view_stats_title">სტატისტიკის ნახვა</string>
-    <string name="anonymous_learn_more">იხილეთ ვრცლად</string>
-    <string name="preview_id_title">გამოსარჩევი ნიშანი</string>
-    <string name="preview_device_title">მოწყობილობა</string>
-    <string name="preview_version_title">ვერსია</string>
-    <string name="preview_country_title">ქვეყანა</string>
-    <string name="preview_carrier_title">ოპერატორი</string>
-    <string name="stats_collection_title">სტატისტიკური აღრიცხვა</string>
-    <string name="stats_collection_summary">ნებართვა, რომ აღირიცხოს დაყენების რაოდენობა და მოწყობილობის სტატისტიკა</string>
     <string name="accelerometer_title">ეკრანის თვითშებრუნება</string>
     <string name="display_rotation_title">შებრუნების პარამეტრები</string>
     <string name="display_rotation_enabled">თვითშებრუნება ჩართულია</string>
@@ -511,39 +494,4 @@
     <string name="touchscreen_gesture_action_volume_down">ხმოვანების შემცირება</string>
     <string name="touchscreen_gesture_action_volume_up">ხმოვანების მომატება</string>
     <string name="touchscreen_gesture_action_ambient_display">ურთიერთქმედი ეკრანის გამოჩენა</string>
-    <string name="trust_category_features">მდგომარეობა</string>
-    <string name="trust_feature_selinux">SELinux</string>
-    <string name="trust_feature_selinux_value_enforcing">იძულებითი</string>
-    <string name="trust_feature_selinux_value_disabled">გამორთული</string>
-    <string name="trust_feature_selinux_explain">SELinux განსაზღვრავს მოწყობილობაზე, რომელ პროცესს რომელ ფაილთან/საქაღალდესთან ექნება შეხება.\nეს უზღუდავს პროგრამებსა და მომსახურებებს იმ ფაილებთან წვდომას, რომლებიც მათთვის არაა განკუთვნილი: შედეგად, შესაძლო მავნე პროგრამები შეიბოჭება და უსაფრთხოება შეუვალი დარჩება.</string>
-    <string name="trust_feature_security_patches">Android-უსაფრთხოების შესწორებები</string>
-    <string name="trust_feature_security_patches_value_base">სისტემა: %1$s\nგამომშვები: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">განახლებულია</string>
-    <string name="trust_feature_security_patches_value_medium">რამდენიმე თვეა გასაახლებელია</string>
-    <string name="trust_feature_security_patches_value_old">გასაახლებელია</string>
-    <string name="trust_feature_security_patches_explain">უსაფრთხოების შესწორებებს Google ყოველთვიურად უშვებს მწარმოებლებთან თანამშრომლობით, რომ აღმოიფხვრას სისუსტეები, რომელთაც მავნე პროგრამები იყენებენ დაცვის გვერდის ასავლელად და მოწყობილობისთვის გამოუსწორებელი ზიანის მისაყენებლად. შესწორებებს, რომელთაც უზრუნველჰყოფს Google, ყოველთვიურად მიიღებს ყველა მხარდაჭერილი მოწყობილობა, მაგრამ იმ შესწორებების მიღება, რომლებიც დახურულ კოდს შეიცავს, მხოლოდ მოწყობილობის უშუალო მწარმოებლისგან შეიძლება. თქვენი მოწყობილობის უსაფრთხოებისთვის მუდმივად განაახლეთ LineageOS-ანაწყობი და ამასთანავე დარწმუნდით (თუ ესადაგება თქვენს შემთხვევას), რომ მწარმოებლის ის გამოშვებაც უახლესი გაქვთ, რომელსაც მხარს უჭერს LineageOS.</string>
-    <string name="trust_feature_encryption">დაშიფვრა</string>
-    <string name="trust_feature_encryption_value_enabled">ჩართული</string>
-    <string name="trust_feature_encryption_value_nolock">საჭიროებს ეკრანის დაცულ ჩამკეტს</string>
-    <string name="trust_feature_encryption_value_disabled">გამორთული</string>
-    <string name="trust_feature_encryption_explain">თქვენი მოწყობილობის დაშიფვრა შეზღუდავს არსებულ მონაცემებთან წვდომას, ტელეფონზე Android-ის ჩატვირთვამდე. ეს გამოსადეგია იმ შემთხვევაში, თუ თქვენს ტელეფონს მოიპარავენ და შედეგად, ვერავინ შეძლებს თქვენი შეტყობინებების, კონტაქტებისა და სხვა პირადი მონაცემების ნახვას პაროლის გარეშე.\nდაშიფვრის მეტად შედეგიანად გამოსაყენებლად სასურველია, ეკრანის ჩამკეტზე დაცული პაროლის დაყენება.</string>
-    <string name="trust_category_tools">პირადულობა</string>
-    <string name="trust_notification_alerts_title">უსაფრთხოების ცნობები</string>
-    <string name="trust_warnings_alerts_intro">შეგიძლიათ შეარჩიოთ უსაფრთხოების საკითხები, რომელთა შესახებაც გსურთ მიიღოთ ცნობები. დაცულობისთვის სასურველია, ყველა ცნობა იყოს ჩართული.</string>
-    <string name="trust_warnings_selinux">SELinux-მდგომარეობა</string>
-    <string name="trust_warnings_keys">ანაწყობის ხელმოწერა</string>
-    <string name="trust_onboarding_title">მოგესალმებათ Trust</string>
-    <string name="trust_onboarding_description">Trust გეხმარებათ დაიცვათ თქვენი მოწყობილობა და პირადულობა.\n Trust-ხატულა მხოლოდ მაშინ გამოჩნდება, როცა გვერდის შიგთავსი სრულად დამოწმებული იქნება.</string>
-    <string name="trust_onboarding_learn_more">იხილეთ ვრცლად</string>
-    <string name="trust_onboarding_done">გასაგებია</string>
-    <string name="trust_restrict_usb_title">შეიზღუდოს USB</string>
-    <string name="trust_restrict_usb_summary">USB-შეერთების მართვა, როგორიცაა ყურსასმენები, მეხსიერების ან შემტანი მოწყობილობა (თაგვი, კლავიატურა, ჯოისტიკი) და ADB</string>
-    <string name="trust_restrict_usb_always">უარი USB-შეერთებაზე</string>
-    <string name="trust_restrict_usb_keyguard">USB-შეერთების ნებართვა გახსნილ ეკრანზე</string>
-    <string name="trust_restrict_usb_disabled">USB-შეერთების ნებართვა ყოველთვის</string>
-    <string name="trust_summary">დაიცავით თქვენი მოწყობილობა და პირადულობა</string>
-    <string name="sms_security_check_limit_title">SMS-შეტყობინების ზღვრული რაოდენობა</string>
-    <string name="sms_security_check_limit_summary">აპებს შეუძლია გაგზავნოს %s წერილი დასასტურების მოთხოვნამდე 1 წუთში</string>
-    <string name="sms_security_check_limit_summary_none">აპებს არ აქვთ ნებართვა, დაუკითხავად გაგზავნონ შეტყობინებები</string>
-    <string name="sms_security_check_limit_always_confirm">ყოველთვის დადასტურება</string>
 </resources>

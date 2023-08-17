@@ -430,23 +430,6 @@
     <string name="contributions_info_msg"><![CDATA[<b>Łączna liczba współtwórców:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Łączna liczba poprawek:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Ostatnia aktualizacja:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">Statystyki LineageOS</string>
-    <string name="anonymous_statistics_summary">Pomóż ulepszyć LineageOS, pozwalając na wysyłanie anonimowych statystyk</string>
-    <string name="anonymous_statistics_warning_title">O programie</string>
-    <string name="anonymous_statistics_warning">Wyrażenie zgody na udział w Statystykach LineageOS zezwoli na przesył anonimowych danych do
-        developerów LineageOS, aby śledzić ilość unikalnych instalacji na urządzeniach . Informacje zawierają unikalny identyfikator,
-       który nie narusza twojej prywatności lub prywatnych danych. Dane są wysyłane przy każdym uruchomieniu.\n\nAby zobaczyć przykład przesyłanych danych naciśnij Podgląd Danych.</string>
-    <string name="enable_reporting_title">Włącz raportowanie</string>
-    <string name="preview_data_title">Podgląd danych</string>
-    <string name="view_stats_title">Zobacz statystyki</string>
-    <string name="anonymous_learn_more">Dowiedz się więcej</string>
-    <string name="preview_id_title">Unikalny ID</string>
-    <string name="preview_device_title">Urządzenie</string>
-    <string name="preview_version_title">Wersja</string>
-    <string name="preview_country_title">Kraj</string>
-    <string name="preview_carrier_title">Operator</string>
-    <string name="stats_collection_title">Zbieranie statystyk</string>
-    <string name="stats_collection_summary">Zezwól na gromadzenie danych instalacyjnych i statystyk urządzenia</string>
     <string name="accelerometer_title">Automatyczne obracanie ekranu</string>
     <string name="display_rotation_title">Ustawienia obracania</string>
     <string name="display_rotation_enabled">Automatyczna rotacja jest włączona</string>
@@ -511,39 +494,4 @@
     <string name="touchscreen_gesture_action_volume_down">Mniejsza głośność multimediów</string>
     <string name="touchscreen_gesture_action_volume_up">Większa głośność multimediów</string>
     <string name="touchscreen_gesture_action_ambient_display">Pokaż aktywny wyświetlacz</string>
-    <string name="trust_category_features">Status</string>
-    <string name="trust_feature_selinux">SELinux</string>
-    <string name="trust_feature_selinux_value_enforcing">Restrykcyjny</string>
-    <string name="trust_feature_selinux_value_disabled">Wyłączono</string>
-    <string name="trust_feature_selinux_explain">SELinux narzuca, które procesy mają dostęp do poszczególnych plików na Twoim urządzeniu.\nZapobiega to dostępowi aplikacjom i usługom do plików, które nie powinny być obsługiwane. Dzięki temu złośliwy proces ma ograniczony dostęp, zapewniając utrzymanie bezpieczeństwa.</string>
-    <string name="trust_feature_security_patches">Poprawki zabezpieczeń Androida</string>
-    <string name="trust_feature_security_patches_value_base">Platforma: %1$s\nDostawca: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">Aktualne</string>
-    <string name="trust_feature_security_patches_value_medium">Przestarzałe od kilku miesięcy</string>
-    <string name="trust_feature_security_patches_value_old">Nieaktualne</string>
-    <string name="trust_feature_security_patches_explain">Aktualizacje zabezpieczeń są wydawane co miesiąc przez Google w kooperacji z dostawcami SoC w celu łatania luk w systemie, które mogą zostać wykorzystane przez złośliwe oprogramowanie w celu obejścia zabezpieczeń oraz wyrządzenia trwałych szkód w twoim urządzeniu. Łatki udostępniane przez Google są aplikowane w każdym miesiącu na wszystkich wspieranych urządzeniach, ale poprawki dla kodu własnościowego mogą być aplikowane tylko przez producenta twojego telefonu. By utrzymać twój telefon bezpiecznym, zawsze używaj najnowsze wersji LineageOS i (jeżeli dotyczy) twój obraz vendor jest zaktualizowany do najnowszej wersji zalecanej przez LineageOS.</string>
-    <string name="trust_feature_encryption">Szyfrowanie</string>
-    <string name="trust_feature_encryption_value_enabled">Włączono</string>
-    <string name="trust_feature_encryption_value_nolock">Wymaga zabezpieczonego ekranu blokady</string>
-    <string name="trust_feature_encryption_value_disabled">Wyłączono</string>
-    <string name="trust_feature_encryption_explain">Szyfrowanie twojego urządzenia zabezpiecza znajdujące się na nim dane gdy twój telefon jest wyłączony, lub znajduje się w trybie recovery. Jest to szczególnie ważne kiedy twoje urządzenie zostanie skradzione, gdyż uniemożliwia to dostęp do wiadomości, kontaktów i innych prywatnych danych bez podania hasła.\nAby szyfrowanie było bardziej efektywne potrzebne jest ustawienie zabezpieczenia ekranu blokady.</string>
-    <string name="trust_category_tools">Prywatność</string>
-    <string name="trust_notification_alerts_title">Alerty zabezpieczeń</string>
-    <string name="trust_warnings_alerts_intro">Możesz wybrać o których problemach z bezpieczeństwem będziesz powiadamiany. Dla twojego bezpieczeństwa, zalecane jest włączenie wszystkich powiadomień</string>
-    <string name="trust_warnings_selinux">Stan SELinux</string>
-    <string name="trust_warnings_keys">Sygnatura kompilacji</string>
-    <string name="trust_onboarding_title">Przywitaj się z Trust</string>
-    <string name="trust_onboarding_description">Trust pomaga utrzymać twoje urządzenie bezpiecznym oraz chronić twoją prywatność.\nIkona Trust wyświetla się by pomóc ci poprzez sprawdzanie bezpieczeństwa zawartości.</string>
-    <string name="trust_onboarding_learn_more">Dowiedz się więcej</string>
-    <string name="trust_onboarding_done">Rozumiem</string>
-    <string name="trust_restrict_usb_title">Ogranicz połączenie USB</string>
-    <string name="trust_restrict_usb_summary">Sterowanie obsługą połączeń USB takich jak słuchawki, urządzenia pamięci masowej, wejścia (myszy, klawiatury i joysticki) oraz ADB</string>
-    <string name="trust_restrict_usb_always">Odmawiaj połączeń USB</string>
-    <string name="trust_restrict_usb_keyguard">Zezwalaj na połączenia USB po odblokowaniu</string>
-    <string name="trust_restrict_usb_disabled">Zawsze zezwalaj na połączenia USB</string>
-    <string name="trust_summary">Zabezpiecz swoje urządzenie i chroń swoją prywatność</string>
-    <string name="sms_security_check_limit_title">Limit wiadomości SMS</string>
-    <string name="sms_security_check_limit_summary">Aplikacje mogą wysłać %s wiadomości przez 1 minutę, nim konieczne będzie potwierdzenie</string>
-    <string name="sms_security_check_limit_summary_none">Aplikacje nie mogą wysyłać żadnych wiadomości bez potwierdzenia</string>
-    <string name="sms_security_check_limit_always_confirm">Zawsze potwierdzaj</string>
 </resources>

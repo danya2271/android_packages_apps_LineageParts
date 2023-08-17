@@ -415,23 +415,6 @@
     <string name="contributions_info_msg"><![CDATA[<b>Tüm katkı sağlayanlar:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Toplam girdi:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Son güncelleme:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS istatistikleri</string>
-    <string name="anonymous_statistics_summary">Anonim istatistik raporlamayı tercih ederek LineageOS\'u daha iyi hale getirmeye yardımcı olun</string>
-    <string name="anonymous_statistics_warning_title">Hakkında</string>
-    <string name="anonymous_statistics_warning">LineageOS İstatistiklerine dahil olmak, cihazlar arasındaki benzersiz yüklemeleri izlemek için
-        LineageOS geliştiricilerine kişisel olmayan verilerin gönderilmesine izin verecektir. Gönderilen bilgiler, gizliliğinizi veya
-        kişisel verilerinizi tehlikeye atmayan benzersiz bir tanımlayıcıyı içerir. Veriler her önyükleme sırasında gönderilir.\n\nGönderilen verilere bir örnek için Verileri Önizle üzerine dokunun.</string>
-    <string name="enable_reporting_title">Raporlamayı etkinleştir</string>
-    <string name="preview_data_title">Veriyi önizle</string>
-    <string name="view_stats_title">İstatistikleri görüntüle</string>
-    <string name="anonymous_learn_more">Fazlasını öğren</string>
-    <string name="preview_id_title">Benzersiz ID</string>
-    <string name="preview_device_title">Cihaz</string>
-    <string name="preview_version_title">Sürüm</string>
-    <string name="preview_country_title">Ülke</string>
-    <string name="preview_carrier_title">Operatör</string>
-    <string name="stats_collection_title">İstatistikler</string>
-    <string name="stats_collection_summary">Yükleme ölçümlerinin ve cihaz istatistiklerinin toplanmasına izin ver</string>
     <string name="accelerometer_title">Ekranı otomatik döndür</string>
     <string name="display_rotation_title">Döndürme ayarları</string>
     <string name="display_rotation_enabled">Otomatik döndürme etkin</string>
@@ -496,38 +479,4 @@
     <string name="touchscreen_gesture_action_volume_down">Medya sesini azalt</string>
     <string name="touchscreen_gesture_action_volume_up">Medya sesini yükselt</string>
     <string name="touchscreen_gesture_action_ambient_display">Ortam ekranını göster</string>
-    <string name="trust_category_features">Durum</string>
-    <string name="trust_feature_selinux">SELinux</string>
-    <string name="trust_feature_selinux_value_enforcing">Zorunlu</string>
-    <string name="trust_feature_selinux_value_disabled">Devre dışı</string>
-    <string name="trust_feature_selinux_explain">SELinux, hangi işlemlerin cihazınızda ki hangi dosyalara/yollara erişebileceğini belirler.\nBu, uygulamaların ve hizmetlerin söz konusu olmayan dosyalara erişmesini önler: bu şekilde olası kötü amaçlı bir işlem sınırlandırılır ve güvenliğiniz korunur.</string>
-    <string name="trust_feature_security_patches">Android güvenlik yaması</string>
-    <string name="trust_feature_security_patches_value_base">Platform: %1$s\nÜretici: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">Güncel</string>
-    <string name="trust_feature_security_patches_value_medium">Birkaç ay eski</string>
-    <string name="trust_feature_security_patches_value_old">Güncellenmemiş</string>
-    <string name="trust_feature_security_patches_explain">Güvenlik kısıtlamalarını atlamak ve cihazınızda kalıcı hasara neden olmak için kötü amaçlı uygulamalar tarafından kötüye kullanılabilecek hataları gidermek için SoC satıcılarıyla işbirliği içinde Google tarafından aylık olarak güvenlik yamaları yayınlanır. Google tarafından kullanıma sunulan yamalar, desteklenen tüm cihazlarda her ay uygulanır, ancak tescilli koddaki yamalar sadece cihazınızın üreticisi tarafından uygulanabilir. Cihazınızı güvende tutmak için LineageOS yapınızın her zaman güncel olduğundan ve (varsa) satıcı dosyanızın LineageOS tarafından önerilen en yeni sürüme güncellendiğinden emin olun.</string>
-    <string name="trust_feature_encryption">Şifreleme</string>
-    <string name="trust_feature_encryption_value_enabled">Etkin</string>
-    <string name="trust_feature_encryption_value_nolock">Güvenli bir kilit ekranına ihtiyaç duyar</string>
-    <string name="trust_feature_encryption_value_disabled">Devre dışı</string>
-    <string name="trust_feature_encryption_explain">Cihazınızı şifrelemek, telefonunuz Android\'e önyükleme yapılmadığında verilerinize erişimi engeller. Bu özellikle telefonunuz çalındığında önemlidir ve kişilerin mesajlarınızı, kişilerinizi ve diğer kişisel bilgilerinizi parolanız olmadan okunmasını engeller.\nŞifrelemeyi daha etkili hale getirmek için güvenli bir kilit ekranı parolası ayarlamanız gerekir.</string>
-    <string name="trust_category_tools">Gizlilik</string>
-    <string name="trust_notification_alerts_title">Güvenlik uyarıları</string>
-    <string name="trust_warnings_alerts_intro">Uyarılmak istediğiniz güvenlik sorunlarını seçebilirsiniz. Güvenliğiniz için tüm uyarıları etkinleştirmeniz önerilir</string>
-    <string name="trust_warnings_selinux">SELinux durumu</string>
-    <string name="trust_warnings_keys">Yapı imzası</string>
-    <string name="trust_onboarding_title">Trust\'a merhaba de</string>
-    <string name="trust_onboarding_description">Trust, cihazınızı güvende tutmanıza ve gizliliğinizi korumanıza yardımcı olur.\nTrust simgesi, sadece sayfanın içeriği doğrulandığında gösterilir.</string>
-    <string name="trust_onboarding_learn_more">Daha fazla bilgi</string>
-    <string name="trust_onboarding_done">Anladım</string>
-    <string name="trust_restrict_usb_title">USB\'yi kısıtla</string>
-    <string name="trust_restrict_usb_summary">Kulaklık, depolama, giriş cihazları (fareler, klavyeler, oyun çubukları) ve ADB gibi USB bağlantıları için kontrol desteği</string>
-    <string name="trust_restrict_usb_always">USB bağlantılarını reddet</string>
-    <string name="trust_restrict_usb_keyguard">Ekran kilidi açıkken USB bağlantılarına izin ver</string>
-    <string name="trust_restrict_usb_disabled">Her zaman USB bağlantılarına izin ver</string>
-    <string name="sms_security_check_limit_title">SMS mesaj limiti</string>
-    <string name="sms_security_check_limit_summary">Uygulamalar onay gerektirmeden önce %s mesajını 1 dakika içinde gönderebilir</string>
-    <string name="sms_security_check_limit_summary_none">Uygulamaların onay almadan mesaj göndermesine izin verilmez</string>
-    <string name="sms_security_check_limit_always_confirm">Her zaman onayla</string>
 </resources>

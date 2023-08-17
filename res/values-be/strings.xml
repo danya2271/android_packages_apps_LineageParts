@@ -303,11 +303,6 @@
     <string name="network_traffic_show_units_summary">Паказваць хуткасць перадачы даных у панэлі стану</string>
     <string name="contributor_info_menu">Інфармацыя пра ўдзельніка</string>
     <string name="contributions_info_menu">Агульная статыстыка</string>
-    <string name="preview_device_title">Прылада</string>
-    <string name="preview_version_title">Версія</string>
-    <string name="preview_country_title">Краіна</string>
-    <string name="preview_carrier_title">Аператар</string>
-    <string name="stats_collection_title">Збор статыстыкі</string>
     <string name="accelerometer_title">Аўтапаварот экрана</string>
     <string name="display_rotation_enabled">Аўтапаварот уключаны</string>
     <string name="display_rotation_disabled">Аўтапаварот адключаны</string>
@@ -348,17 +343,4 @@
     <string name="touchscreen_gesture_action_dialer">Адкрыць тэлефон</string>
     <string name="touchscreen_gesture_action_volume_down">Паменшыць гучнасць</string>
     <string name="touchscreen_gesture_action_volume_up">Павялічыць гучнасць</string>
-    <string name="trust_feature_selinux">SELinux</string>
-    <string name="trust_feature_selinux_value_disabled">Адключана</string>
-    <string name="trust_feature_security_patches_value_base">Платформа: %1$s\nВытворца: %2$s</string>
-    <string name="trust_feature_encryption">Шыфраванне</string>
-    <string name="trust_feature_encryption_value_disabled">Адключана</string>
-    <string name="trust_notification_alerts_title">Апавяшчэнні сістэмы бяспекі</string>
-    <string name="trust_warnings_selinux">Статус SELinux</string>
-    <string name="trust_warnings_keys">Подпіс зборкі</string>
-    <string name="trust_onboarding_title">Скажыце прывітанне Trust</string>
-    <string name="trust_onboarding_done">Зразумела</string>
-    <string name="trust_restrict_usb_title">Абмежаваць USB</string>
-    <string name="sms_security_check_limit_title">Абмежаванне паведамленняў SMS</string>
-    <string name="sms_security_check_limit_always_confirm">Заўсёды пацвярджаць</string>
 </resources>

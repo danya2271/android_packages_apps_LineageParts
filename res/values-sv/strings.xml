@@ -332,20 +332,6 @@
     <string name="network_traffic_units_kilobits">Kilobits per sekund (kb/s)</string>
     <string name="protected_apps_manager_title">Skyddade appar</string>
     <string name="contributors_cloud_fragment_title">Bidragsgivare</string>
-    <string name="anonymous_statistics_title">LineageOS-statistik</string>
-    <string name="anonymous_statistics_summary">Hjälp till att göra LineageOS bättre genom att skicka in anonym statistik</string>
-    <string name="anonymous_statistics_warning_title">Om</string>
-    <string name="anonymous_statistics_warning">Att delta i LineageOS statistikprogram tillåter att icke-personlig data skickas till
-        LineageOS-utvecklarna för att spåra unika installationer mellan enheter. Den delgivna informationen innehåller ett unikt ID-nummer,
-        som inte kränker din integritet eller dina personliga data. Datan skickas varje gång enheten startas.\n\nFör ett exempel på den data som skickas, tryck på Förhandsgranska data.</string>
-    <string name="preview_data_title">Förhandsgranska data</string>
-    <string name="view_stats_title">Visa statistik</string>
-    <string name="anonymous_learn_more">Mer information</string>
-    <string name="preview_id_title">Unikt ID</string>
-    <string name="preview_device_title">Enhet</string>
-    <string name="preview_version_title">Version</string>
-    <string name="preview_country_title">Land</string>
-    <string name="preview_carrier_title">Operatör</string>
     <string name="accelerometer_title">Rotera skärmen automatiskt</string>
     <string name="display_rotation_unit">grader</string>
     <string name="display_lockscreen_rotation_title">Rotera låsskärmen</string>
@@ -385,27 +371,4 @@
     <string name="touchscreen_gesture_action_next_track">Hoppa över till nästa musikspår</string>
     <string name="touchscreen_gesture_action_volume_down">Sänk mediavolym</string>
     <string name="touchscreen_gesture_action_volume_up">Höj mediavolym</string>
-    <string name="trust_category_features">Status</string>
-    <string name="trust_feature_selinux">SELinux</string>
-    <string name="trust_feature_selinux_explain">SELinux bestämmer vilka filer och sökvägar olika processer har åtkomst till.\nFunktionen förhindrar appar och tjänster från att komma åt filer de inte ska kunna komma åt, och begränsar därigenom möjligheten för skadlig programvara att äventyra säkerheten.</string>
-    <string name="trust_feature_security_patches">Säkerhetsuppdateringar för Android</string>
-    <string name="trust_feature_security_patches_value_base">Plattform: %1$s\nTillverkare: %2$s</string>
-    <string name="trust_feature_security_patches_explain">Varje månad släpper Google säkerhetsuppdateringar tillsammans med chiptillverkare för att rätta till säkerhetsfel som skadlig programvara skulle kunna använda för att ta sig runt säkerhetsreglerna och skada enheten. LineageOS tillämpar Googles korrigeringar en gång i månaden på alla enheter som stöds men tillverkarspecifik programkod kan bara korrigeras av tillverkarna. För att hålla din enhet säker bör du se till att du använder den senaste versionen av LineageOS samt att systemets fasta programvara har uppdaterats till den senaste versionen som LineageOS rekommenderar.</string>
-    <string name="trust_feature_encryption">Kryptering</string>
-    <string name="trust_feature_encryption_value_nolock">En säker låsskärm behövs</string>
-    <string name="trust_feature_encryption_explain">Är din enhet krypterad går det inte att komma åt informationen på enheten innan Android har startats. Det är särskilt viktigt om någon stjäl din enhet eftersom det förhindrar andra från att se dina meddelanden, kontakter, och annan känslig information utan ditt lösenord.\nKrypteringen blir effektivare ju säkrare lösenord du ställer in.</string>
-    <string name="trust_category_tools">Sekretess</string>
-    <string name="trust_notification_alerts_title">Säkerhetsvarningar</string>
-    <string name="trust_warnings_alerts_intro">Du kan välja vilka säkerhetshål du vill bli varnad om. För säkerhets skull är det rekommenderat att aktivera alla varningar.</string>
-    <string name="trust_warnings_keys">Versionssignatur</string>
-    <string name="trust_onboarding_title">Säg hej till Trust</string>
-    <string name="trust_onboarding_description">Trust hjälper dig att hålla din enhet säker och skydda din sekretess.\nTrust-ikonen visas endast när innehållet på sidan har verifierats.</string>
-    <string name="trust_onboarding_learn_more">Mer information</string>
-    <string name="trust_onboarding_done">Jag förstår</string>
-    <string name="trust_restrict_usb_title">Begränsa USB</string>
-    <string name="trust_summary">Håll din enhet säker och skydda din integritet</string>
-    <string name="sms_security_check_limit_title">Gräns för SMS-meddelande</string>
-    <string name="sms_security_check_limit_summary">Appar får skicka %s SMS-meddelanden på en minut innan bekräftelse krävs</string>
-    <string name="sms_security_check_limit_summary_none">Appar får inte skicka SMS-meddelanden utan bekräftelse</string>
-    <string name="sms_security_check_limit_always_confirm">Bekräfta alltid</string>
 </resources>

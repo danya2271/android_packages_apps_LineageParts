@@ -430,23 +430,6 @@
     <string name="contributions_info_msg"><![CDATA[<b>Total contribuitori:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Total commit-uri:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Ultima actualizare:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">Statistici LineageOS</string>
-    <string name="anonymous_statistics_summary">Ajutați la îmbunătățirea lui LineageOS prin optarea pentru raportarea anonimă de statistici</string>
-    <string name="anonymous_statistics_warning_title">Despre</string>
-    <string name="anonymous_statistics_warning">Optând să trimiteți Statistici LineageOS, le permiteți dezvoltatorilor LineageOS
-        să primească date ne-personale pentru a urmări instalările unice la o gamă mare de dispozitive. Informația transmisă include un identificator unic,
-        care nu vă compromite intimitatea sau datele personale. Datele sunt trimise la fiecare pornire a dispozitivului.\n\nPentru a vedea un exemplu de date ce se trimit, apăsați pe Previzualizare Date.</string>
-    <string name="enable_reporting_title">Activare raportare</string>
-    <string name="preview_data_title">Previzualizare date</string>
-    <string name="view_stats_title">Vedeți statistici</string>
-    <string name="anonymous_learn_more">Aflați mai multe</string>
-    <string name="preview_id_title">ID unic</string>
-    <string name="preview_device_title">Dispozitiv</string>
-    <string name="preview_version_title">Versiune</string>
-    <string name="preview_country_title">Țară</string>
-    <string name="preview_carrier_title">Operator</string>
-    <string name="stats_collection_title">Colectarea de statistici</string>
-    <string name="stats_collection_summary">Permiteți ca măsurătorile instalării și statisticile dispozitivului să fie colectate</string>
     <string name="accelerometer_title">Rotire automată a ecranului</string>
     <string name="display_rotation_title">Setări de rotaţie</string>
     <string name="display_rotation_enabled">Auto-rotaţia este activată</string>
@@ -511,39 +494,4 @@
     <string name="touchscreen_gesture_action_volume_down">Micșorează volumul media</string>
     <string name="touchscreen_gesture_action_volume_up">Mărește volumul media</string>
     <string name="touchscreen_gesture_action_ambient_display">Afișare ecran ambiental</string>
-    <string name="trust_category_features">Stare</string>
-    <string name="trust_feature_selinux">SELinux</string>
-    <string name="trust_feature_selinux_value_enforcing">Obligatoriu</string>
-    <string name="trust_feature_selinux_value_disabled">Dezactivat</string>
-    <string name="trust_feature_selinux_explain">SELinux dictează ce procese au acces la fișiere/căi de fișiere pe dispozitivul dvs.\nAceasta previne ca aplicațiile și serviciile să aibă acces la fișiere la care nu ar trebui să îl aibă: prin aceasta, un potențial proces malițios are acces limitat, așa că se menține securitatea dvs.</string>
-    <string name="trust_feature_security_patches">Corecțiile de securitate Android</string>
-    <string name="trust_feature_security_patches_value_base">Platforma: %1$s\nProducător: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">La zi</string>
-    <string name="trust_feature_security_patches_value_medium">Expirate de câteva luni</string>
-    <string name="trust_feature_security_patches_value_old">Expirat</string>
-    <string name="trust_feature_security_patches_explain">Corecțiile de securitate sunt lansate lunar de către Google în cooperare cu vânzătorii SoC pentru a remedia problemele care pot fi exploatate de aplicațiile malițioase pentru a trece peste restricțiile de securitate și să cauzeze daune permanente în dispozitivul dvs. Patch-urile făcute disponibile de Google sunt aplicate lunar pe toate dispozitivele compatibile, dar patch-urile la codul proprietar pot fi aplicate numai de către producătorul dispozitivului. Pentru a vă menține dispozitivul în siguranță, asigurați-vă că build-ul LineageOS al dvs. este la zi și (dacă se aplică) asigurați-vă că imaginea vendor-ului este actualizată la cea recomandată de LineageOS.</string>
-    <string name="trust_feature_encryption">Criptare</string>
-    <string name="trust_feature_encryption_value_enabled">Activat</string>
-    <string name="trust_feature_encryption_value_nolock">Necesită un ecran de blocare securizat</string>
-    <string name="trust_feature_encryption_value_disabled">Dezactivat</string>
-    <string name="trust_feature_encryption_explain">Criptarea dispozitivului previne accesul la datele dvs. când telefonul nu este boot-at în Android. Aceasta este importantă în special dacă telefonul vă este furat și previne oamenii de la a vă citi mesajele, contactele și alte date private fără a utiliza vreo parolă.\nPentru a face criptarea mai eficientă trebuie să setați o parolă într-un ecran de blocare securizat.</string>
-    <string name="trust_category_tools">Confidențialitate</string>
-    <string name="trust_notification_alerts_title">Alerte de securitate</string>
-    <string name="trust_warnings_alerts_intro">Puteți selecta problemele de securitate despre care să fiți atenționat(ă). Pentru siguranța dvs., este recomandat să activați toate alertele</string>
-    <string name="trust_warnings_selinux">Stare SELinux</string>
-    <string name="trust_warnings_keys">Semnătură build</string>
-    <string name="trust_onboarding_title">Spuneți-o salut lui Trust</string>
-    <string name="trust_onboarding_description">Trust vă ajută să vă păstrați telefonul în siguranță și să vă protejați confidențialitatea.\nIconița Trust va apărea numai când conținutul paginii a fost verificat.</string>
-    <string name="trust_onboarding_learn_more">Aflați mai multe</string>
-    <string name="trust_onboarding_done">Am înțeles</string>
-    <string name="trust_restrict_usb_title">Restricționare USB</string>
-    <string name="trust_restrict_usb_summary">Controlează suportul pentru conexiunile USB, cum ar fi căștile, dispozitivele de stocare, intrare (mouse-uri, tastaturi, joystick-uri) și ADB</string>
-    <string name="trust_restrict_usb_always">Interzice conexiunile USB</string>
-    <string name="trust_restrict_usb_keyguard">Permite conexiunile USB când telefonul este deblocat</string>
-    <string name="trust_restrict_usb_disabled">Permiteţi întotdeauna conexiunile USB</string>
-    <string name="trust_summary">Păstrați-vă dispozitivul în siguranță și protejați-vă confidențialitatea</string>
-    <string name="sms_security_check_limit_title">Limită mesaje SMS</string>
-    <string name="sms_security_check_limit_summary">Aplicațiile pot trimite %s mesaje într-un minut înainte de a fi necesară confirmarea</string>
-    <string name="sms_security_check_limit_summary_none">Aplicațiilor nu li se permite să poată trimite vreun mesaj decât cu confirmare</string>
-    <string name="sms_security_check_limit_always_confirm">Confirmă întotdeauna</string>
 </resources>

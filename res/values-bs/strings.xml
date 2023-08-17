@@ -16,5 +16,4 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="trust_restrict_usb_title">Ograniči USB</string>
 </resources>

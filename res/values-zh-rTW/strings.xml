@@ -426,23 +426,6 @@
     <string name="contributor_info_msg"><![CDATA[<b>名稱：</b><xliff:g id="name">%1$s</xliff:g>                 <b>暱稱：</b><xliff:g id="nick">%2$s</xliff:g>                 <b>提交：</b><xliff:g id="commits">%3$s</xliff:g>]]></string>
     <string name="contributions_info_menu">貢獻者名單</string>
     <string name="contributions_info_msg"><![CDATA[<b>總貢獻者：</b><xliff:g id="total_contributors"><xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>                 <b>總提交：</b><xliff:g id="total_commits">%2$s</xliff:g><br/><br/>                 <b>最近更新：</b><xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS 統計</string>
-    <string name="anonymous_statistics_summary">加入匿名統計報告即可協助改進 LineageOS</string>
-    <string name="anonymous_statistics_warning_title">相關資訊</string>
-    <string name="anonymous_statistics_warning">加入 LineageOS 統計將允許非個人資料被提交到 LineageOS 的開發人員，
-        以追蹤每個裝置上的獨特安裝。提交的資訊包含一個唯一識別碼，此識別碼並不會泄露您的隱私或個人資料。
-        該資料在每次開機時被提交。\n\n輕觸預覽資料以預覽被提交資料的範例。</string>
-    <string name="enable_reporting_title">啟用報告</string>
-    <string name="preview_data_title">預覽資料</string>
-    <string name="view_stats_title">檢視統計</string>
-    <string name="anonymous_learn_more">了解更多</string>
-    <string name="preview_id_title">識別 ID</string>
-    <string name="preview_device_title">裝置</string>
-    <string name="preview_version_title">版本</string>
-    <string name="preview_country_title">國家/地區</string>
-    <string name="preview_carrier_title">電信業者</string>
-    <string name="stats_collection_title">統計資料收集</string>
-    <string name="stats_collection_summary">允許收集安裝指標和裝置統計資訊</string>
     <string name="accelerometer_title">自動旋轉螢幕</string>
     <string name="display_rotation_title">旋轉設定</string>
     <string name="display_rotation_enabled">啟用自動旋轉</string>
@@ -507,39 +490,4 @@
     <string name="touchscreen_gesture_action_volume_down">降低媒體音量</string>
     <string name="touchscreen_gesture_action_volume_up">提高媒體音量</string>
     <string name="touchscreen_gesture_action_ambient_display">顯示環境顯示</string>
-    <string name="trust_category_features">狀態</string>
-    <string name="trust_feature_selinux">SELinux</string>
-    <string name="trust_feature_selinux_value_enforcing">強制執行</string>
-    <string name="trust_feature_selinux_value_disabled">已停用</string>
-    <string name="trust_feature_selinux_explain">SELinux 規定了哪些程式可以存取您的裝置上的哪些檔案。\n這個機制可以防止應用程式和服務存取它們不該存取的檔案，因此惡意程式的存取也會受到限制，從而保護了您的安全。</string>
-    <string name="trust_feature_security_patches">Android 安全性修補</string>
-    <string name="trust_feature_security_patches_value_base">平台：%1$s\n廠商：%2$s</string>
-    <string name="trust_feature_security_patches_value_new">已是最新</string>
-    <string name="trust_feature_security_patches_value_medium">幾個月未更新</string>
-    <string name="trust_feature_security_patches_value_old">已過期</string>
-    <string name="trust_feature_security_patches_explain">安全性修補由 Google 和 SoC 廠商每月發佈，用以修復可能會被惡意應用程式利用、繞過安全限制對您的裝置造成暫時或永久損壞的缺陷。\n平台修補每個月都會統一更新，但廠商修補只能每次從 OEM 取得。\n要保證您的裝置安全，請使用最新的 LineageOS 版本。</string>
-    <string name="trust_feature_encryption">加密</string>
-    <string name="trust_feature_encryption_value_enabled">已啟用</string>
-    <string name="trust_feature_encryption_value_nolock">需要設定鎖定畫面密碼</string>
-    <string name="trust_feature_encryption_value_disabled">已停用</string>
-    <string name="trust_feature_encryption_explain">裝置加密可以防止別人在關機狀態或恢復模式存取您的資料。當您的裝置被盜時，這個重要特性可以防止別人在沒有密碼的情況下讀取您的簡訊、通訊錄和其他私人資訊。\n要使加密更加有效，您需要設定一個安全的鎖定畫面密碼。</string>
-    <string name="trust_category_tools">隱私權</string>
-    <string name="trust_notification_alerts_title">安全提醒</string>
-    <string name="trust_warnings_alerts_intro">您可以選擇需要警告的安全問題。為了您的安全起見, 建議啟用所有警報</string>
-    <string name="trust_warnings_selinux">SELinux 狀態</string>
-    <string name="trust_warnings_keys">編譯簽名</string>
-    <string name="trust_onboarding_title">歡迎使用安全中心</string>
-    <string name="trust_onboarding_description">安全中心能保障您的裝置安全性和您的隱私嗎？\ n您可以透過顯示的安全圖示檢查內容的安全性</string>
-    <string name="trust_onboarding_learn_more">瞭解更多</string>
-    <string name="trust_onboarding_done">明白了</string>
-    <string name="trust_restrict_usb_title">限制 USB</string>
-    <string name="trust_restrict_usb_summary">對 USB 連線的控制支援，如耳機、儲存裝置、輸入裝置 (滑鼠、鍵盤、手把) 與 ADB</string>
-    <string name="trust_restrict_usb_always">拒絕 USB 連線</string>
-    <string name="trust_restrict_usb_keyguard">解鎖時允許 USB 連線</string>
-    <string name="trust_restrict_usb_disabled">一律允許 USB 連線</string>
-    <string name="trust_summary">確保您裝置的安全並保護您的隱私權</string>
-    <string name="sms_security_check_limit_title">簡訊訊息限制</string>
-    <string name="sms_security_check_limit_summary">在使用者認可之前，應用程式在 1 分鐘內只能傳送 %s 則訊息</string>
-    <string name="sms_security_check_limit_summary_none">未經確認的應用程式不允許傳送任何訊息</string>
-    <string name="sms_security_check_limit_always_confirm">一律確認</string>
 </resources>

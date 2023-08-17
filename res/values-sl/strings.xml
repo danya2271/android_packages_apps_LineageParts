@@ -430,23 +430,6 @@
     <string name="contributions_info_msg"><![CDATA[<b>Skupaj sodelavcev:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Skupaj prispevkov:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Zadnja posodobitev:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">Statistika LineageOS</string>
-    <string name="anonymous_statistics_summary">Pomagajte izboljšati LineageOS tako, da izberete pošiljanje anonimne statistike</string>
-    <string name="anonymous_statistics_warning_title">O aplikaciji</string>
-    <string name="anonymous_statistics_warning">Izbira statistike LineageOS bo dovolila pošiljanje neosebnih podatkov
-        razvijalcem LineageOS-a, da lahko sledijo edinstvenim namestitvam v napravah. Poslani podatki vključujejo edinstven določilnik,
-        ki ne ogroža vaše zasebnosti in osebnih podatkov. Podatki so poslani ob vsakem zagonu.\n\nZa primer poslanih podatkov tapnite Predogled podatkov.</string>
-    <string name="enable_reporting_title">Omogoči poročanje</string>
-    <string name="preview_data_title">Predogled podatkov</string>
-    <string name="view_stats_title">Pokaži statistiko</string>
-    <string name="anonymous_learn_more">Več o tem</string>
-    <string name="preview_id_title">Edinstven ID</string>
-    <string name="preview_device_title">Naprava</string>
-    <string name="preview_version_title">Različica</string>
-    <string name="preview_country_title">Država</string>
-    <string name="preview_carrier_title">Ponudnik</string>
-    <string name="stats_collection_title">Zbiranje statistike</string>
-    <string name="stats_collection_summary">Dovoli zbiranje meritev in statistike naprave</string>
     <string name="accelerometer_title">Samodejno zasukaj zaslon</string>
     <string name="display_rotation_title">Nastavitve sukanja</string>
     <string name="display_rotation_enabled">Samodejno sukanje je omogočeno</string>
@@ -511,39 +494,4 @@
     <string name="touchscreen_gesture_action_volume_down">Zmanjšaj glasnost predstavnosti</string>
     <string name="touchscreen_gesture_action_volume_up">Povečaj glasnost predstavnosti</string>
     <string name="touchscreen_gesture_action_ambient_display">Prikaži okoliški zaslon</string>
-    <string name="trust_category_features">Stanje</string>
-    <string name="trust_feature_selinux">SELinux</string>
-    <string name="trust_feature_selinux_value_enforcing">Uveljavljeno</string>
-    <string name="trust_feature_selinux_value_disabled">Onemogočen</string>
-    <string name="trust_feature_selinux_explain">SELinux narekuje, kateri procesi imajo dostop do katerih datotek/poti na vaši napravi.\nTo preprečuje aplikacijam in storitvam dostop do datotek s katerimi ne bi smele upravljati: tako je potencialni zlonamerni proces omejen in vaša varnost je ohranjena.</string>
-    <string name="trust_feature_security_patches">Varnostni popravki Androida</string>
-    <string name="trust_feature_security_patches_value_base">Platforma: %1$s\nProizvajalec: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">Posodobljeno</string>
-    <string name="trust_feature_security_patches_value_medium">Nekaj mesecev zastarelo</string>
-    <string name="trust_feature_security_patches_value_old">Zastarelo</string>
-    <string name="trust_feature_security_patches_explain">Varnostni popravki so izdani mesečno s strani Googla v sodelovanju s proizvajalci SoC-ov, da naslovijo pomanjkljivosti, ki jih lahko zlonamerne aplikacije izrabijo za obvoz varnostnih omejitev in lahko povzročijo trajne poškodbe vaše naprave. Popravki s strani Googla so na vseh podprtih napravah uveljavljeni vsak mesec, vendar so lahko popravki lastniške kode uveljavljeni samo s strani proizvajalca naprave. Da ohranite vašo napravo varno, poskrbite, da je vaša izgradnja LineageOS-a vedno posodobljena in (v kolikor je na voljo) odtis dobavitelja posodobobljen na zadnjo različico priporočeno s strani LineageOS-a.</string>
-    <string name="trust_feature_encryption">Šifriranje</string>
-    <string name="trust_feature_encryption_value_enabled">Omogočeno</string>
-    <string name="trust_feature_encryption_value_nolock">Potreben je varni zaklenjen zaslon</string>
-    <string name="trust_feature_encryption_value_disabled">Onemogočeno</string>
-    <string name="trust_feature_encryption_explain">Šifriranje vaše naprave prepreči dostop do vaših podatkov, ko vaš telefon ni zagnan v Android. To je še posebej pomembno, če vam ukradejo telefon, saj prepreči osebam brez gesla branje vaših sporočil, stikov ali drugih zasebnih podatkov.\nZa učinkovitejše šifriranje, nastavite varno geslo za zaklep zaslona.</string>
-    <string name="trust_category_tools">Zasebnost</string>
-    <string name="trust_notification_alerts_title">Varnostna opozorila</string>
-    <string name="trust_warnings_alerts_intro">Izberete lahko varnostne težave, na katere bi želeli biti opozorjeni. Za vašo varnost je priporočljivo, da omogočite vsa opozorila</string>
-    <string name="trust_warnings_selinux">SELinux stanje</string>
-    <string name="trust_warnings_keys">Podpis izgradnje</string>
-    <string name="trust_onboarding_title">Pozdravite Trust</string>
-    <string name="trust_onboarding_description">Trust vam pomaga ohraniti vašo napravo varno in varuje vašo zasebnost.\nTrust ikona se bo prikazala samo, ko bo vsebina strani potrjena.</string>
-    <string name="trust_onboarding_learn_more">Več o tem</string>
-    <string name="trust_onboarding_done">Razumem</string>
-    <string name="trust_restrict_usb_title">Omeji USB</string>
-    <string name="trust_restrict_usb_summary">Nadzorujte podporo za povezave USB, kot so slušalke, pomnilniške naprave, vnos (miške, tipkovnice, igralne palice) in ADB</string>
-    <string name="trust_restrict_usb_always">Zavrni povezave USB</string>
-    <string name="trust_restrict_usb_keyguard">Dovoli povezave USB, ko je odklenjeno</string>
-    <string name="trust_restrict_usb_disabled">Vedno dovoli povezave USB</string>
-    <string name="trust_summary">Ohranite vašo napravo varno in zaščitite vašo zasebnost.</string>
-    <string name="sms_security_check_limit_title">Omejitev sporočil SMS</string>
-    <string name="sms_security_check_limit_summary">Aplikacije lahko pošljejo %s sporočil v eni minuti, preden je zahtevana potrditev</string>
-    <string name="sms_security_check_limit_summary_none">Aplikacijam ni dovoljeno pošiljanje sporočil brez potrditve</string>
-    <string name="sms_security_check_limit_always_confirm">Vedno potrdi</string>
 </resources>
